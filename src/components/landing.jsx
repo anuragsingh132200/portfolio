@@ -4,7 +4,7 @@ const landing = () => {
   return (
     <div className="w-full h-screen bg-zinc-900">
       <div className="textstructure">
-        <div className="masker  text-9xl">
+        <div className="masker  text-8xl">
           <h1 className="pt-36 font-serif px-12">I Create</h1>
           <h1 className=" px-12 font-mono ">Awesome Websites</h1>
           <h1 className=" px-12 font-bold">For You</h1>

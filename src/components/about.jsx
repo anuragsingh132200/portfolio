@@ -1,5 +1,4 @@
 import React from "react";
-
 const about = () => {
   return (
     <div className="about w-full">
@@ -35,15 +34,6 @@ const about = () => {
           <div className="emphasis vera">CONTAINERIZATION</div>
           <div className="vera">and many more....</div>
         </div>
-      </div>
-      <div className="line mt-5 bg-black w-full mb-5"></div>
-      <div className="pic flex justify-between">
-        <div className="picleft pl-5 pt-10 pb-16">
-          OUR Approach :
-          
-        </div>
-        <div className="picright mr-20">
-          <img src="../../public/snapedit_1709446030059.jpeg" className="picc p-8"/></div>
       </div>
     </div>
   );
