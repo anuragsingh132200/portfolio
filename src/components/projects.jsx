@@ -3,7 +3,7 @@ import "./components.css";
 import Box from "./box";
 const projects = () => {
   return (
-    <div data-scroll data-scroll-speed="0.4" className="w-full py-32  bg-black rounded-t-[50px] relative -top-[50vh]">
+    <div data-scroll data-scroll-speed="0.3" className="w-full py-32 text-black bg-zinc-200  relative -top-[50vh]">
       <div className="w-full px-10 border-b-[1px] pb-16 border-zinc-800">
         <h1 className="text-6xl tracking tight">Featured Projects</h1>
       </div>
@@ -20,7 +20,7 @@ const projects = () => {
               e.currentTarget.style.transform = "scale(1)";
             }}
             onClick={() => {
-              window.open("https://talk-a-tive.herokuapp.com/");
+              window.open("https://github.com/anuragsingh132200/chat-app");
             }}
           />
         </div>

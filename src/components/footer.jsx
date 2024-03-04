@@ -2,7 +2,7 @@ import React from "react";
 import "./components.css";
 const footer = () => {
   return (
-    <div data-scroll  className="text-zinc-900 w-full h-screen p-10 pt-32 flex relative top-[-60vh]">
+    <div data-scroll  className="text-zinc-900 bg-zinc-200 w-full h-screen p-10 pt-32 flex relative top-[-60vh]">
       <div className="w-1/2 flex-col flex h-full justify-between ">
         <div className="heading">
           <h1 className="uppercase text-[8vw] font-italic  leading-none ">
