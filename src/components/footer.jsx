@@ -36,17 +36,17 @@ const footer = () => {
             <i
               className="ri-twitter-line emphasis"
               onClick={() => {
-                window.open("https://twitter.com/anurag132200");
+                window.open("https://www.linkedin.com/in/anurag-singh-465462286/");
               }}
             >
-              FACEBOOK
+              LINKEDIN
             </i>
           </div>
           <div>
             <i
               className="ri-twitter-line emphasis"
               onClick={() => {
-                window.open("https://twitter.com/anurag132200");
+                window.open("https://github.com/Anuragsingh132200");
               }}
             >
               GITHUB
@@ -56,7 +56,7 @@ const footer = () => {
             <i
               className="ri-twitter-line emphasis"
               onClick={() => {
-                window.open("https://twitter.com/anurag132200");
+                window.open("https://www.instagram.com/anuragsingh/132200/");
               }}
             >
               INSTAGRAM

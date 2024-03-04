@@ -19,6 +19,9 @@ const projects = () => {
             onMouseOut={(e) => {
               e.currentTarget.style.transform = "scale(1)";
             }}
+            onClick={() => {
+              window.open("https://talk-a-tive.herokuapp.com/");
+            }}
           />
         </div>
         <div className="leftsec ">
@@ -31,6 +34,9 @@ const projects = () => {
             }}
             onMouseOut={(e) => {
               e.currentTarget.style.transform = "scale(1)";
+            }}
+            onClick={() => {
+              window.open("https://instagram-woad-theta.vercel.app/");
             }}
           />
         </div>
