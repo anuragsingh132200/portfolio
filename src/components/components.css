@@ -17,6 +17,13 @@
 .phoenix {
   animation: move 15s linear infinite;
 }
+.boxi{
+  border: 1px solid black;
+  width:fit-content;
+  padding: 0 10px ;
+  margin: 10px 10px;
+  border-radius: 10px;
+}
 .about {
   background-color: #cdea68;
   font-size: 1.9vw;

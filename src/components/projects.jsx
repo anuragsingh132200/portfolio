@@ -1,32 +1,38 @@
 import React from "react";
 import "./components.css";
+import Box from "./box";
 const projects = () => {
   return (
-    <div className="projects">
-      <h1 className="m-16 mb-2">Featured projects</h1>
-      <hr />
-      <hr />
-      <hr />
-      <hr />
-      <div className="projectcontainer flex justify-around m-20">
-        <div className="project1 w-[40vw] h-[80vh] ml-[10vw] mr-[10vw] ">
-          <li className="text-xl font-light">FULL STACK CHAT APP</li>
-          <iframe src="https://talk-a-tive-7fgq.onrender.com/chats" className="w-[40vw] h-[80vh]"/>
-          <img />
-        </div>
-        <div className="project1 w-[40vw] h-[80vh] mr-[10vw] ">
-          <li className="text-xl font-light">Instagram Clone</li>
-          <img />
-        </div>
+    <div data-scroll data-scroll-speed="0.4" className="w-full py-32  bg-black rounded-t-[50px] relative -top-[50vh]">
+      <div className="w-full px-10 border-b-[1px] pb-16 border-zinc-800">
+        <h1 className="text-6xl tracking tight">Featured Projects</h1>
       </div>
-      <div className="projectcontainer flex justify-around m-20">
-        <div className="project1 w-[40vw] h-[80vh] ml-[10vw] mr-[10vw] ">
-          <li className="text-xl font-light">GOOGLE KEEP Clone</li>
-          <img />
+      <div className="w-full flex justify-around">
+        <div className="rightsec ">
+          <li className="text-xl mt-[4vw] mb-1vw font-light pb-4">CHAT APP</li>
+          <img
+            src="https://i.ytimg.com/vi/otaQKODEUFs/maxresdefault.jpg"
+            className="w-[40vw] mb-[5vw] rounded-2xl transition-[1s]"
+            onMouseOver={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+            }}
+          />
         </div>
-        <div className="project1 w-[40vw] h-[80vh]  mr-[10vw] ">
-          <li className="text-xl font-light">Blogging website</li>
-          <img />
+        <div className="leftsec ">
+          <li className="text-xl mt-[4vw] mb-1vw font-light pb-4">Instagram Clone</li>
+          <img
+            src="https://lh3.googleusercontent.com/WedHsceKdercIzGR5Agcq-_hzorGNEcL3jI-WirzdL7p6xyPhRVcqqQJrQF0n4NCx52Yu_efzWmbtO3rZvlT4CtXuyU=w640-h400-e365-rj-sc0x00ffffff"
+            className="w-[40vw] mb-[5vw] rounded-2xl transition-[1s]"
+            onMouseOver={(e) => {
+              e.currentTarget.style.transform = "scale(1.05)";
+            }}
+            onMouseOut={(e) => {
+              e.currentTarget.style.transform = "scale(1)";
+            }}
+          />
         </div>
       </div>
     </div>

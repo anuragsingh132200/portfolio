@@ -1,7 +1,7 @@
 import React from "react";
 const about = () => {
   return (
-    <div className="about w-full">
+    <div data-scroll data-scroll-speed="0.25" className="about w-full relative -top-[30vh] pb-[10vh]">
       <div className="abouttop pl-5 pt-16 pb-10">
         <h4>
           I am <span className="emphasis">Anurag singh</span> a first year
