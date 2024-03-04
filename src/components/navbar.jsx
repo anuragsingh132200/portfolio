@@ -2,7 +2,7 @@ import React from "react";
 
 const navbar = () => {
   return (
-    <div className="w-full px-20 py-8 flex justify-between fixed z-[999] text-black bg-white opacity-30">
+    <div className="w-full px-20 py-8 flex justify-between fixed z-[999] text-white bg-white bg-opacity-20">
       <svg
         width="72"
         height="30"
@@ -34,7 +34,7 @@ const navbar = () => {
       <div className="links flex ">
         {["SERVICES","OUR WORK","PROJECTS","ABOUT US","INSIGHTS"].map(
           (item) => (
-            <li key={item} className="list-none px-10 text-lg ">
+            <li key={item} className="list-none px-10 text-lg emphasis">
               <a href={`#${item}`}>{item}</a>
             </li>
           )
